@@ -6,13 +6,12 @@ ENV['HOME'] = "spec/fixtures/home"
 require "byebug"
 require "fileutils"
 require "jets"
+require 'webmock/rspec'
 
 abort("The Jets environment is running in production mode!") if Jets.env == "production"
 Jets.boot
 
 require "jets/spec_helpers"
-
-
 
 module Helpers
   def payload(name)

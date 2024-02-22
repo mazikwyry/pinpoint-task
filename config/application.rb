@@ -4,9 +4,5 @@ module PinpointHibob
 
     config.project_name = "pinpoint-hibob"
     config.mode = "api"
-
-    # Docs:
-    # https://rubyonjets.com/docs/config/
-    # https://rubyonjets.com/docs/config/reference/
   end
 end
