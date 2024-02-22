@@ -1,0 +1,12 @@
+{
+  "event": "application_hired",
+  "triggeredAt": 1614687278,
+  "data": {
+    "application": {
+      "id": 8863902
+    },
+    "job": {
+      "id": 1
+    }
+  }
+}
